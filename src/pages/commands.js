@@ -17,7 +17,7 @@ export default function Commands() {
         <title>Commands | Ace</title>
         <meta
           name="description"
-          content="Commands page | Minimal and awesome discord bot website created with ❤️ using NextJS"
+          content="Commands page | Ace Bot"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -67,10 +67,6 @@ export default function Commands() {
                   <span className="p-color"> set max warnings configuration</span>
                 </li>
             <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-            <li>
                   <kbd>a!modlog</kbd> -{" "}
                   <span className="p-color">enable or disable moderation logs
 </span>
@@ -100,16 +96,19 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>a!anti</kbd> -{" "}
+                  <span className="p-color">manage various automod settings for the server
+</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>a!autodelete</kbd> -{" "}
+                  <span className="p-color">manage the autodelete settings for the server
+</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>a!automod</kbd> -{" "}
+                  <span className="p-color">various automod configuration
+</span>
                 </li>
               </ul>
             </div>
@@ -117,22 +116,14 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
-              Customization 👀
+              Anime
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>a!react</kbd> -{" "}
+                  <span className="p-color">anime reactions</span>
                 </li>
               </ul>
             </div>
@@ -141,22 +132,26 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb4" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb4">
-              Gameplay 🎲
+              Economy
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>a!bank</kbd> -{" "}
+                  <span className="p-color">access to bank operations</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>a!beg</kbd> -{" "}
+                  <span className="p-color">beg from someone</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>a!daily</kbd> -{" "}
+                  <span className="p-color">receive a daily bonus</span>
+                </li>  
+            <li>
+                  <kbd>a!gamble</kbd> -{" "}
+                  <span className="p-color">try your luck by gambling</span>
                 </li>
               </ul>
             </div>
@@ -185,7 +180,308 @@ export default function Commands() {
               </ul>
             </div>
           </section>
+          
+          <input type="radio" name="accordion" id="cb6" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb6">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb7" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb7">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb8" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb8">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb9" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb9">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb10" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb10">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb11" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb11">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb12" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb12">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb13" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb13">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb14" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb14">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb15" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb15">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb16" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb16">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb17" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb17">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb18" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb18">
+              Image 🖼️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>$command1</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command2</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+                <li>
+                  <kbd>$command3</kbd> -{" "}
+                  <span className="p-color">Description of command</span>
+                </li>
+              </ul>
+            </div>
+          </section>
 
+          
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
