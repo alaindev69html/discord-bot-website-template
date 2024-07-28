@@ -14,7 +14,7 @@ export default function Commands() {
       animate={{ opacity: 1 }}
     >
       <Head>
-        <title>Commands | BOT</title>
+        <title>Commands | Ace</title>
         <meta
           name="description"
           content="Commands page | Minimal and awesome discord bot website created with ❤️ using NextJS"
@@ -27,36 +27,74 @@ export default function Commands() {
         <nav className="accordion arrows" id="commands">
           <header className="box">
             <label htmlFor="acc-close" className="box-title h-color">
-              ⚡ Commands
+              Commands of Ace Bot
             </label>
           </header>
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
+              Admin
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>a!autorole</kbd> -{" "}
+                  <span className="p-color">setup role to be given when a member joins the server</span>
                 </li>
                 <li>
+                  <kbd>a!counter</kbd> -{" "}
+                  <span className="p-color">setup counter channel in the guild</span>
+                </li>
+                <li>
+                  <kbd>a!embed</kbd> -{" "}
+                  <span className="p-color">send embed message</span>
+                </li>
+            <li>
+                  <kbd>a!flagtranslation</kbd> -{" "}
+                  <span className="p-color">configure flag translation in the server</span>
+                </li>
+            <li>
+                  <kbd>a!farewell</kbd> -{" "}
+                  <span className="p-color">setup farewell message</span>
+                </li>
+            <li>
+                  <kbd>a!welcome</kbd> -{" "}
+                  <span className="p-color">setup welcome message</span>
+                </li>
+            <li>
+                  <kbd>a!maxwarn</kbd> -{" "}
+                  <span className="p-color"> set max warnings configuration</span>
+                </li>
+            <li>
                   <kbd>$command2</kbd> -{" "}
                   <span className="p-color">Description of command</span>
                 </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+            <li>
+                  <kbd>a!modlog</kbd> -{" "}
+                  <span className="p-color">enable or disable moderation logs
+</span>
                 </li>
+            <li>
+                  <kbd>a!addrr</kbd> -{" "}
+                  <span className="p-color">setup reaction role for the specified message</span>
+                </li>
+             <li>
+                  <kbd>a!removerr</kbd> -{" "}
+                  <span className="p-color">emove configured reaction for the specified message</span>
+                </li>
+             <li>
+                  <kbd>a!setprefix</kbd> -{" "}
+                  <span className="p-color">sets a new prefix for this server</span>
+                </li>
+            
               </ul>
             </div>
           </section>
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
+              Automod
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
